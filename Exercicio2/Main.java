@@ -5,9 +5,9 @@ class Main {
     Circulo circulo = new Circulo(3.0f);
     Triangulo triangulo = new Triangulo(2.0f, 3.3f);
 
-    System.out.println(retangulo.calcularArea());
-    System.out.println(quadrado.calcularArea());
-    System.out.println(circulo.calcularArea());
-    System.out.println(triangulo.calcularArea());
+    Figura.imprimirArea(retangulo);
+    Figura.imprimirArea(circulo);
+    Figura.imprimirArea(quadrado);
+    Figura.imprimirArea(triangulo);
   }
 }
