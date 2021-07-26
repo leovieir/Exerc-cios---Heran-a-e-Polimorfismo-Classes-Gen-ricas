@@ -1,6 +1,6 @@
 import java.lang.Math;
 
-public class FormaGeometrica{
+public abstact class FormaGeometrica{
   private float area;
   private float perimetro;
 
